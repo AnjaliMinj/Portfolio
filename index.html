@@ -1,0 +1,438 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anjali Minj - Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">Anjali Minj</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <button id="themeBtn" onclick="toggleTheme()">🌙 Dark</button>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+  </nav>
+
+  <!-- HOME / HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Anjali Minj</h1>
+      <h2 class="hero-title">Full Stack Developer | BCA Student</h2>
+      <p class="hero-desc">
+        Passionate about building clean, responsive, and scalable web applications.
+        I love turning ideas into reality through code.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+        <a href="mailto:anjali.minj@email.com">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+
+      <div class="about-grid">
+        <div class="about-left">
+          <div class="avatar">AM</div>
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Internships</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">4+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">6+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-right">
+          <p class="about-text">
+            I'm a <strong>Full Stack Developer</strong> and BCA student at Ram Krishna Dharmarth Foundation
+            University, Jharkhand. I have hands-on experience with MERN stack and PHP-based projects
+            through internships at Cnear and JIS. I enjoy building user-friendly web applications and
+            continuously improving my skills.
+          </p>
+
+          <h3>Education</h3>
+          <div class="edu-item">
+            <p class="edu-degree">Bachelor of Computer Application (BCA)</p>
+            <p class="edu-school">Ram Krishna Dharmarth Foundation University, Jharkhand</p>
+            <p class="edu-meta">2023 – Present</p>
+          </div>
+          <div class="edu-item">
+            <p class="edu-degree">Science – Intermediate</p>
+            <p class="edu-school">Jharkhand Academic Council</p>
+            <p class="edu-meta">Score: 59.8%</p>
+          </div>
+          <div class="edu-item">
+            <p class="edu-degree">ICSE – 10th Standard</p>
+            <p class="edu-meta">Score: 78.8%</p>
+          </div>
+
+          <h3 style="margin-top: 20px;">Languages Known</h3>
+          <div class="lang-tags">
+            <span class="tag">Hindi</span>
+            <span class="tag">English</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+
+      <!-- Skill Categories -->
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>⚙ Programming</h3>
+          <p>Python, PHP, C++, Java, JavaScript, SQL, Bash</p>
+        </div>
+        <div class="skill-card">
+          <h3>🎨 Frontend</h3>
+          <p>HTML5, CSS3, JavaScript, Bootstrap, React.js</p>
+        </div>
+        <div class="skill-card">
+          <h3>🛠 Backend</h3>
+          <p>Node.js, Express.js, PHP</p>
+        </div>
+        <div class="skill-card">
+          <h3>🗄 Databases</h3>
+          <p>MySQL, MongoDB</p>
+        </div>
+        <div class="skill-card">
+          <h3>🔧 Tools & Platforms</h3>
+          <p>Git, GitHub, VS Code, phpMyAdmin, Google Cloud, Windows</p>
+        </div>
+        <div class="skill-card">
+          <h3>💬 Soft Skills</h3>
+          <p>Communication, Time Management, Team Collaboration, Problem Solving, Adaptability</p>
+        </div>
+      </div>
+
+      <!-- Progress Bars -->
+      <h3 class="bars-heading">Proficiency Levels</h3>
+      <div class="skill-bars">
+
+        <div class="bar-item">
+          <div class="bar-label">
+            <span>HTML & CSS</span>
+            <span>90%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" data-width="90"></div>
+          </div>
+        </div>
+
+        <div class="bar-item">
+          <div class="bar-label">
+            <span>JavaScript</span>
+            <span>82%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" data-width="82"></div>
+          </div>
+        </div>
+
+        <div class="bar-item">
+          <div class="bar-label">
+            <span>React.js</span>
+            <span>75%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" data-width="75"></div>
+          </div>
+        </div>
+
+        <div class="bar-item">
+          <div class="bar-label">
+            <span>PHP & MySQL</span>
+            <span>72%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" data-width="72"></div>
+          </div>
+        </div>
+
+        <div class="bar-item">
+          <div class="bar-label">
+            <span>Node.js</span>
+            <span>68%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" data-width="68"></div>
+          </div>
+        </div>
+
+        <div class="bar-item">
+          <div class="bar-label">
+            <span>Python</span>
+            <span>74%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" data-width="74"></div>
+          </div>
+        </div>
+
+        <div class="bar-item">
+          <div class="bar-label">
+            <span>Git & GitHub</span>
+            <span>80%</span>
+          </div>
+          <div class="bar-track">
+            <div class="bar-fill" data-width="80"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="container">
+      <h2 class="section-title">Experience</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot">🚀</div>
+          <div class="timeline-card">
+            <div class="tl-top">
+              <span class="tl-role">Full Stack Developer Intern</span>
+              <span class="tl-period">Oct 2025 – Dec 2025</span>
+            </div>
+            <p class="tl-company">Cnear</p>
+            <ul class="tl-points">
+              <li>Worked on live MERN stack projects in a production environment</li>
+              <li>Contributed 70% to frontend architecture and 60% to backend logic</li>
+              <li>Maintained strong Git & GitHub collaboration standards</li>
+              <li>Gained deep understanding of the full-stack development lifecycle</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot">💡</div>
+          <div class="timeline-card">
+            <div class="tl-top">
+              <span class="tl-role">Full Stack Developer Intern</span>
+              <span class="tl-period">Jul 2025 – Aug 2025</span>
+            </div>
+            <p class="tl-company">JIS</p>
+            <ul class="tl-points">
+              <li>Built responsive web applications from scratch</li>
+              <li>Used HTML, CSS, JavaScript, PHP, and MySQL stack</li>
+              <li>Learned end-to-end full-stack fundamentals and deployment</li>
+              <li>Collaborated with senior developers on feature development</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-icon">🎬</span>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="https://demo.example.com" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+            </div>
+          </div>
+          <h3 class="project-name">Movie Recommendation Web App</h3>
+          <p class="project-tech">React, Vite, API, CSS</p>
+          <p class="project-desc">
+            A dynamic movie recommendation platform built with React and Vite.
+            Fetches live movie data from an API, supports search and genre filters.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-icon">🏔</span>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+            </div>
+          </div>
+          <h3 class="project-name">Jharkhand Tourism Website</h3>
+          <p class="project-tech">HTML, CSS, JavaScript, PHP</p>
+          <p class="project-desc">
+            A tourism portal showcasing Jharkhand's destinations, culture, and
+            attractions with responsive image galleries and location highlights.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-icon">🌤</span>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+              <a href="https://demo.example.com" target="_blank" class="btn btn-sm btn-primary">Live Demo</a>
+            </div>
+          </div>
+          <h3 class="project-name">Weather Forecast Web App</h3>
+          <p class="project-tech">React, OpenWeather API, CSS</p>
+          <p class="project-desc">
+            Real-time weather app with 5-day forecasts. Shows temperature, humidity,
+            and wind speed based on the user's location.
+          </p>
+        </div>
+
+        <div class="project-card">
+          <div class="project-top">
+            <span class="project-icon">👥</span>
+            <div class="project-links">
+              <a href="https://github.com" target="_blank" class="btn btn-sm btn-outline">GitHub</a>
+            </div>
+          </div>
+          <h3 class="project-name">User Management System</h3>
+          <p class="project-tech">PHP, MySQL, Bootstrap, CRUD</p>
+          <p class="project-desc">
+            A complete CRUD-based user management system with add, edit, delete,
+            and search features. Includes server-side validation and session management.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <h2 class="section-title">Certifications</h2>
+
+      <div class="certs-grid">
+
+        <div class="cert-card">
+          <div class="cert-icon">🏆</div>
+          <div class="cert-info">
+            <p class="cert-title">Certificate of Eminence – Full Stack Internship</p>
+            <p class="cert-issuer">Cnear</p>
+            <p class="cert-date">December 2025</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">📜</div>
+          <div class="cert-info">
+            <p class="cert-title">Certificate of Completion – Full Stack Internship</p>
+            <p class="cert-issuer">Jharkhand IT Services</p>
+            <p class="cert-date">September 2025</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon">🎓</div>
+          <div class="cert-info">
+            <p class="cert-title">Diploma in Computer Application</p>
+            <p class="cert-issuer">Alpha Core Education</p>
+            <p class="cert-date">September 2023</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+
+      <div class="contact-grid">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <p class="contact-desc">
+            Have a project in mind or want to collaborate?
+            I'd love to hear from you. Drop a message and I'll get back to you shortly.
+          </p>
+          <p class="contact-detail">📧 aminj5112@email.com</p>
+          <p class="contact-detail">📞 +91 98765 43210</p>
+          <div class="contact-links">
+            <a href="https://github.com" target="_blank" class="btn btn-outline">GitHub</a>
+            <a href="https://linkedin.com" target="_blank" class="btn btn-outline">LinkedIn</a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-box">
+          <form id="contactForm">
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your full name" />
+              <span class="error-msg" id="nameErr"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="your@email.com" />
+              <span class="error-msg" id="emailErr"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="5" placeholder="Tell me about your project..."></textarea>
+              <span class="error-msg" id="msgErr"></span>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-full" onclick="submitForm()">Send Message</button>
+            <p class="success-msg" id="successMsg">✓ Message sent! I'll be in touch soon.</p>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Thanks for visiting my profile....!</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
