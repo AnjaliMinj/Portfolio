@@ -1,6 +1,4 @@
- 
-
-//  DARK / LIGHT MODE 
+ //  DARK / LIGHT MODE 
 
 function toggleTheme() {
   var body = document.body;
